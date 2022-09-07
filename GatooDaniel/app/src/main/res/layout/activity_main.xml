@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#B5B5B5">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n Bienvenido al Gato \n"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <LinearLayout
+            android:id="@+id/Ly1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonid1"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:backgroundTint="#8C8888"
+                android:text=" "
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
+
+            <Button
+                android:id="@+id/buttonid2"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:backgroundTint="#8C8888"
+                android:text=" "
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
+
+            <Button
+                android:id="@+id/buttonid3"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:backgroundTint="#8C8888"
+                android:text=" "
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Ly2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonid4"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:backgroundTint="#8C8888"
+                android:text=" "
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
+
+            <Button
+                android:id="@+id/buttonid5"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:backgroundTint="#8C8888"
+                android:text=" "
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
+
+            <Button
+                android:id="@+id/buttonid6"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:backgroundTint="#8C8888"
+                android:text=" "
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Ly3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonid7"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:backgroundTint="#8C8888"
+                android:text=" "
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
+
+            <Button
+                android:id="@+id/buttonid8"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:backgroundTint="#8C8888"
+                android:text=" "
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
+
+            <Button
+                android:id="@+id/buttonid9"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:backgroundTint="#8C8888"
+                android:text=" "
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="407dp"
+        android:layout_height="246dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ganador: "
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <EditText
+            android:id="@+id/Ganador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <Button
+            android:id="@+id/buttonidre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Reiniciar Juego"
+            android:backgroundTint="#737171"
+            />
+
+        <Button
+            android:id="@+id/buttonidsalir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Salir"
+            android:backgroundTint="#737171"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
